@@ -1,4 +1,4 @@
-package Assignment1;
+package Assignment1.Fabian;
 
 import java.util.Scanner;
 
