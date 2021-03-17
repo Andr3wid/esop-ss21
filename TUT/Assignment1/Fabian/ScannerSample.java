@@ -18,8 +18,8 @@ public class ScannerSample {
         int moduloResult = num1 % divisor;
         System.out.println(moduloResult);
 
-        System.out.println(100/5);
-        System.out.println(100%5);
+        System.out.println(100 / 5);
+        System.out.println(100 % 5);
 
 
         int[] arr = new int[5];
