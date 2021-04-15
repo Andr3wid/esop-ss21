@@ -1,3 +1,5 @@
+package Assignment4.Andreas;
+
 import java.util.Scanner;
 
 public class PatternPrinting {
@@ -24,10 +26,10 @@ public class PatternPrinting {
         b = input.nextInt();
 
         // Anzahl der Zeilen
-        for(int i = 1; i <= b; i++) {
+        for (int i = 1; i <= b; i++) {
 
             // Anzahl der Sterne pro Zeile
-            for(int j = 1; j <= a; j++) {
+            for (int j = 1; j <= a; j++) {
                 System.out.print("* ");
             }
 
