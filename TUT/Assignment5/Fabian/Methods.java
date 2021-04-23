@@ -13,11 +13,11 @@ public class Methods {
         int[] numArr = {2, 3, 5, 6, 10, 30};
         int divider = 3;
 
-        int[] dividers = getDividerArr(numArr, divider);
+        int[] dividers = filterOutDividers(numArr, divider);
         System.out.println(Arrays.toString(dividers));
     }
 
-    public static int[] getDividerArr(int[] numArr, int divider) {
+    public static int[] filterOutDividers(int[] numArr, int divider) {
         int arrNewLen = 0;
         if (numArr == null) return new int[0];
 
