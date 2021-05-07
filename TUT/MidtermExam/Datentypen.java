@@ -12,7 +12,7 @@ public class Datentypen {
         boolean b3 = c != d.substring(0).toCharArray()[0];
         boolean b4 = !!!!!!!!!b2 || b3;
         String s = d.replace(c, 'c');
-
+        
         System.out.println("b1=" + b1 + " b2=" + b2 + " b3=" + b3 + " b4=" + b4);
         System.out.println(s);
     }
