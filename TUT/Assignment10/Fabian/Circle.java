@@ -6,7 +6,6 @@ public class Circle implements Shape {
     public Circle(double radius) {
         this.radius = radius;
     }
-
     @Override
     public String shapeName() {
         return "I am a circle!!";
