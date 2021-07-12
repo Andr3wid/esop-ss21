@@ -11,7 +11,20 @@ public class ex04 {
     }
 
     public static String encryptCaesar(String clearText, int offset) {
-        return null;
+        StringBuilder cipherBuilder = new StringBuilder();
+        char[] chars = clearText.toCharArray();
+
+        for (char character : chars) {
+            if (character >= 'a' && character <= 'z') {
+                cipherBuilder.append((char) (character + offset));
+                // to account for "alphabetic overflow" we can use the line below instead; test with "xyz"
+                // cipherBuilder.append((char) ((((character + offset) - 'a') % 26) + 'a'));
+            } else {
+                cipherBuilder.append(character);
+            }
+        }
+
+        return cipherBuilder.toString();
     }
 
 }

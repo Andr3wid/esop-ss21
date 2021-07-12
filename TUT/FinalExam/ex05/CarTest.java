@@ -8,8 +8,8 @@ public class CarTest {
 
         Car c2 = new Car("VW Passat", "Black", 8.2351);
 
-        System.out.println(c2);
         System.out.println(c1);
+        System.out.println(c2);
     }
 
 }

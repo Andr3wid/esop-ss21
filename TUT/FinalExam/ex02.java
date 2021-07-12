@@ -10,8 +10,14 @@ public class ex02 {
     }
 
     private static String[][] stringSplit(String input) {
-        return null;
+        String[] firstSplit = input.split(",");
+        String[][] fullSplit = new String[firstSplit.length][];
 
+        for (int i = 0; i < firstSplit.length; i++) {
+            fullSplit[i] = firstSplit[i].trim().split(" ");
+        }
+
+        return fullSplit;
     }
 
 }

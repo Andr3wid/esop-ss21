@@ -8,7 +8,8 @@ public class ex01 {
     }
 
     public static String reverse(String s) {
-        return null;
+        if (s.length() > 0) return reverse(s.substring(1)) + s.charAt(0);
+        else return s;
     }
 
 }
